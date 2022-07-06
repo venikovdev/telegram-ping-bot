@@ -5,6 +5,7 @@ const net = require('net');
 let oldStatus = 1;
 let status = 0;
 
+// Check server status and notify
 function checkStatus() {
     const socket = new net.Socket();
     socket.setTimeout(2500);
