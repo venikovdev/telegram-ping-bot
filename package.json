@@ -1,7 +1,7 @@
 {
   "name": "telegram-ping-bot",
   "version": "1.0.0",
-  "description": "A simple Telegram bot that allows you to ping server and notify you when the server is turned on/off",
+  "description": "A simple Telegram bot that allows you to ping server and notify you when the server is turned on / off",
   "main": "app.js",
   "scripts": {
     "bot": "node app.js",
