@@ -1,0 +1,22 @@
+{
+  "name": "telegram-ping-bot",
+  "version": "1.0.0",
+  "description": "A simple telegram bot that allows you to ping server and notify you when the server is turned on/off",
+  "main": "app.js",
+  "scripts": {
+    "bot": "node app.js",
+    "server": "node localserver.js"
+  },
+  "keywords": [
+    "telegram",
+    "telebot",
+    "telegrambot",
+    "bot"
+  ],
+  "author": "Danil Venikov",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "telebot": "^1.4.1"
+  }
+}
